@@ -13,7 +13,8 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://bolin0330.github.io/mapleRoyals-Node.js
+root: /mapleRoyals-Node.js/
 permalink: posts/:title/
 permalink_defaults:
 pretty_urls:
@@ -108,4 +109,4 @@ deploy:
   type: git
   repo: https://github.com/bolin0330/mapleRoyals-Node.js
   branch: gh-pages
-  message: 'configure hexschool hexo theme'
+  message: 'alter configuration'

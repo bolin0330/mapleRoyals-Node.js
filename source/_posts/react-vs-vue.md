@@ -2,7 +2,7 @@
 title: React vs. Vue，哪種前端框架比較好用？從三大面向談起
 layout: post
 date: 2023/07/03
-cover: /images/article-image6.png
+cover: /mapleRoyals-Node.js/images/article-image6.png
 tags:
 - 前端開發
 ---

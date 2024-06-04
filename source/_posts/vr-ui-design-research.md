@@ -4,7 +4,7 @@ subtitle: 探索虛擬實境技術的現狀與前景
 layout: post
 author: Noel
 date: 2023/9/20
-cover: /images/article-image4.png
+cover: /mapleRoyals-Node.js/images/article-image4.png
 tags:
 - 數位產品設計
 ---

@@ -2,7 +2,7 @@
 title: 想打到目標受眾？先讓設計師跟你都瞭解他們痛在哪！
 layout: post
 date: 2023/08/10
-cover: /images/article-image5.png
+cover: /mapleRoyals-Node.js/images/article-image5.png
 tags:
 - 數位產品設計
 ---

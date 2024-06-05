@@ -2,6 +2,6 @@
 title: {{ title }}
 subtitle:
 date: {{ date }}
-cover: /images/default-cover.png
+cover: /mapleRoyals-Node.js/images/default-cover.png
 tags:
 ---

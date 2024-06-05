@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: MapleRoyals
 subtitle: ''
 description: ''
 keywords:
@@ -109,4 +109,4 @@ deploy:
   type: git
   repo: https://github.com/bolin0330/mapleRoyals-Node.js
   branch: gh-pages
-  message: 'alter configuration'
+  message: 'add images'

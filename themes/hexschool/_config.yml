@@ -1,14 +1,14 @@
 # Header
 menu:
   首頁: /
-  作品集: /collection
-  服務項目: /service
-  部落格: /blog
-  聯絡我: /contact
+  經典內容: /collection
+  本服優勢: /service
+  文章分享: /blog
+  關於本站: /contact
 
 # Blog
-blog_title: 部落格
-blog_subtitle: 不定期分享技術文章
+blog_title: 文章分享
+blog_subtitle: 分享中文攻略
 
 # Blog pagination
 # path: Root path for your blogs index page. (default = '/blog')

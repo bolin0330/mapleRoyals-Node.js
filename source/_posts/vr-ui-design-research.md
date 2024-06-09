@@ -21,25 +21,25 @@ tags:
 <div class="row row-gap-4 mb-6 mb-lg-7">
   <div class="col-12 col-lg-6 text-center">
     <figure class="figure mb-0">
-      <img src="/images/vision-pro.png" class="figure-img img-fluid" alt="vision-pro">
+      <img src="/mapleRoyals-Node.js/images/vision-pro.png" class="figure-img img-fluid" alt="vision-pro">
       <figcaption class="figure-caption text-primary-600">Vision Pro</figcaption>
     </figure>
   </div>
   <div class="col-12 col-lg-6 text-center">
     <figure class="figure mb-0">
-      <img src="/images/oculus-rift.png" class="figure-img img-fluid" alt="vision-pro">
+      <img src="/mapleRoyals-Node.js/images/oculus-rift.png" class="figure-img img-fluid" alt="vision-pro">
       <figcaption class="figure-caption text-primary-600">Oculus Rift</figcaption>
     </figure>
   </div>
   <div class="col-12 col-lg-6 text-center">
     <figure class="figure mb-0">
-      <img src="/images/htc-vive.png" class="figure-img img-fluid" alt="HTC Vive">
+      <img src="/mapleRoyals-Node.js/images/htc-vive.png" class="figure-img img-fluid" alt="HTC Vive">
       <figcaption class="figure-caption text-primary-600">VHTC Vive</figcaption>
     </figure>
   </div>
   <div class="col-12 col-lg-6 text-center">
     <figure class="figure mb-0">
-      <img src="/images/playstation-vr.png" class="figure-img img-fluid" alt="PlayStation VR">
+      <img src="/mapleRoyals-Node.js/images/playstation-vr.png" class="figure-img img-fluid" alt="PlayStation VR">
       <figcaption class="figure-caption text-primary-600">PlayStation VR</figcaption>
     </figure>
   </div>

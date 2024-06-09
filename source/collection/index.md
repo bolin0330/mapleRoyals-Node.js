@@ -1,4 +1,4 @@
 ---
-title: 作品集
+title: 經典內容
 layout: collection
 ---

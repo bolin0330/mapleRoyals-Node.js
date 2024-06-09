@@ -1,4 +1,4 @@
 ---
-title: 聯絡我
+title: 關於本站
 layout: contact
 ---

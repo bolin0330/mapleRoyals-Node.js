@@ -1,44 +1,56 @@
 [
   {
     "id": 1,
-    "name": "星際旅行訂票平台",
-    "description": "悠遊宇宙的夢想，從這裡開始實現",
-    "tags": ["網頁設計", "響應式設計", "Bootstrap"]
+    "name": "未來東京",
+    "description": "180等 奧芙赫斑",
+    "tags": ["絕版副本", "日本", "LV180 BOSS"]
   },
   {
     "id": 2,
-    "name": "理財App",
-    "description": "連動帳戶與行動支付，讓 AI 提供您最好的理財建議",
-    "tags": ["APP設計", "iOS", "React"]
+    "name": "馬來西亞夢幻公園",
+    "description": "140等 泰勒熊、娃娃獅王",
+    "tags": ["世界旅行", "馬來西亞", "LV140 BOSS"]
   },
   {
     "id": 3,
-    "name": "醫美診所官網",
-    "description": "永保青春的秘密，從粹究開始",
-    "tags": ["網頁設計", "響應式設計", "ＷordPress"]
+    "name": "烏魯城大冒險",
+    "description": "140等 克雷賽爾",
+    "tags": ["世界旅行", "新加坡", "LV140 BOSS"]
   },
   {
     "id": 4,
-    "name": "美美美早餐店 POS 機 UI Design",
-    "description": "訂單送單一目瞭然，自動報表分析好輕鬆",
-    "tags": ["UI 設計", "前端開發", "Wix"]
+    "name": "少林寺",
+    "description": "150等 武林妖僧",
+    "tags": ["世界旅行", "中國", "LV150 BOSS"]
   },
   {
     "id": 5,
-    "name": "電影院訂票系統",
-    "description": "三步驟完成訂票，電腦手機都支援",
-    "tags": ["前端開發", "後端支援", "Vue"]
+    "name": "昭和村",
+    "description": "175等 黑道長老",
+    "tags": ["世界旅行", "日本", "LV175 BOSS"]
   },
   {
     "id": 6,
-    "name": "巧克巧克形象官網設計",
-    "description": "三步驟完成訂票，電腦手機都支援",
-    "tags": ["UI設計", "設計系統", "網路電商"]
+    "name": "駁船碼頭城",
+    "description": "100等 幽靈船長",
+    "tags": ["世界旅行", "新加坡", "LV100 BOSS"]
   },
   {
     "id": 7,
-    "name": "2023 餉茶坊飲料旗艦店活動官網設計",
-    "description": "主打水果主題，冰鎮夏天暑氣",
-    "tags": ["網頁設計", "切版服務", "Javascript"]
+    "name": "楓葉古城",
+    "description": "180等 天皇蟾蜍",
+    "tags": ["絕版副本", "日本", "LV100 BOSS"]
+  },
+  {
+    "id": 8,
+    "name": "水上市場",
+    "description": "大蛇王",
+    "tags": ["世界旅行", "泰國"]
+  },
+  {
+    "id": 9,
+    "name": "新葉城",
+    "description": "電擊象、機械蜘蛛",
+    "tags": ["絕版地圖", "克拉奇亞"]
   }
 ]

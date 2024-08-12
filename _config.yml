@@ -109,4 +109,4 @@ deploy:
   type: git
   repo: https://github.com/bolin0330/mapleRoyals-Node.js
   branch: gh-pages
-  message: 'add images'
+  message: 'update content'

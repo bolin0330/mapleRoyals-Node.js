@@ -19,27 +19,27 @@
   },
   {
     "id": 4,
+    "name": "楓葉古城",
+    "description": "180等 天皇蟾蜍",
+    "tags": ["絕版副本", "日本", "LV180 BOSS"]
+  },
+  {
+    "id": 5,
     "name": "少林寺",
     "description": "150等 武林妖僧",
     "tags": ["世界旅行", "中國", "LV150 BOSS"]
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "昭和村",
     "description": "175等 黑道長老",
     "tags": ["世界旅行", "日本", "LV175 BOSS"]
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "駁船碼頭城",
     "description": "100等 幽靈船長",
     "tags": ["世界旅行", "新加坡", "LV100 BOSS"]
-  },
-  {
-    "id": 7,
-    "name": "楓葉古城",
-    "description": "180等 天皇蟾蜍",
-    "tags": ["絕版副本", "日本", "LV180 BOSS"]
   },
   {
     "id": 8,

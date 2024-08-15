@@ -90,21 +90,7 @@ KS / KSing：搶怪、搶圖（Kill-stealing）
 Pin：定怪
 Pull：引怪
 
-**常見物品用詞**
-AP / AP Reset：能力值重置卷
-All Cure Potion：萬能療傷藥
-TP：傳送石
-BVM：Black Versal Material。
-WG：工地手套 Work gloves
-Orbis etc：經驗物
-PGC：粉紅蓋亞披風 Pink Gaia Cape
-SCG：閃電刺青手套 Stormcaster Gloves
-Secret Spell Scroll：密咒卷、秘咒卷
-Black Sack：巴洛古召喚包
-WS：白捲 White Scroll
-CS：混沌捲 Chaos Scroll 60%
-GFA：手套攻擊捲 Gloves for Attack
-Leech 用語
+**練功用語**
 Leech：高等角色組隊帶練，例：我帶你練等（I leech you）
 Leeching Service：組隊帶練服務
 1 hit：一擊，指能夠秒怪的次數
@@ -128,18 +114,6 @@ LMPQ：玩具城迷宮（玩具城汽水組隊任務）Ludibrium Maze Party Ques
 OPQ：女神的遺跡 Orbis Party Quest (Tower of Goddess)
 HTPQ：闇黑龍王前置任務（主教天怒「生命之根」前置任務）Horntail Party Quest
 APQ：結婚小鎮組隊任務 Amoria Party Quest
-
-**官方論壇 Character Issues 板**
-如何掌握在 Character Issues 發文後的處理進度？在 Character Issues 的文章標題前，都有一個標籤，玩家可以透過以下標籤，來得知玩家發文的處理進度。
-Sticky：置頂文
-Open：案件還在進行中，尚未結束。
-Closed：案件已經解決，或無法有後續動作，結案。
-Awaiting Player Feedback：案件要等待玩家更多的細節補充。
-Awaiting Admin Action：案件要等待管理員的動作。
-Confirmed & Awaiting GM Action：案件已確認，要在遊戲裡面使用 ~gm 聯絡 GM，等待 GM 的動作。
-Under Investigation：案件正在調查中，短期內無法有後續動作。
-For Next Server Check：案件要在下次的伺服器檢查作業中，才能進行處理。
-Character Lag/Loading Issues：案件被標記為「角色 Lag」或「讀取緩慢」的特別個案。
 
 **日常用語**
 IGN：遊戲角色名稱（In-game name）

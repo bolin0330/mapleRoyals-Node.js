@@ -2,55 +2,91 @@
   {
     "id": 1,
     "name": "未來東京",
-    "description": "180等 奧芙赫斑",
-    "tags": ["絕版副本", "日本", "LV180 BOSS"]
+    "title": "180等 奧芙赫斑",
+    "tags": ["絕版副本", "日本", "LV180 BOSS"],
+    "description": "由世界旅行NPC史匹奈爾傳送到古代神社<br>到神社下的水井可移動至未來東京",
+    "map": "日本",
+    "monsters": "奧芙赫斑、杜納斯、貝魯加墨特",
+    "details": ["Lv.140 貝魯加墨特(Vergamot)", "Lv.152 杜納斯(Dunas)", "Lv.158 尼貝龍根(Nibergen)", "Lv.180 奧芙赫斑(Auf Haven)"]
   },
   {
     "id": 2,
     "name": "馬來西亞夢幻公園",
-    "description": "140等 泰勒熊、娃娃獅王",
-    "tags": ["世界旅行", "馬來西亞", "LV140 BOSS"]
+    "title": "140等 泰勒熊、娃娃獅王",
+    "tags": ["世界旅行", "馬來西亞", "LV140 BOSS"],
+    "description": "由墮落城市計程車上方NPC Irene傳送到新加坡CBD<br>到NPC Audrey選擇傳送至馬來西亞",
+    "map": "馬來西亞",
+    "monsters": "泰勒熊、娃娃獅王",
+    "details": ["Lv.47 艾摩水靈(Emo Slime)、Lv.52 黑色迫炮(Dark Fission)", "Lv.61 黑色獵犬(Rodeo)", "Lv.140 泰勒熊(Targa)、Lv.140 娃娃獅王(Scarlion)"]
   },
   {
     "id": 3,
     "name": "烏魯城大冒險",
-    "description": "140等 克雷賽爾",
-    "tags": ["世界旅行", "新加坡", "LV140 BOSS"]
+    "title": "140等 克雷賽爾",
+    "tags": ["世界旅行", "新加坡", "LV140 BOSS"],
+    "description": "由墮落城市計程車上方NPC Irene傳送到新加坡CBD<br>到地圖Suburban Area2右上方可移動到烏魯城",
+    "map": "新加坡",
+    "monsters": "克雷賽爾",
+    "details": ["Lv.90 維壯(Veetron)", "Lv.95 史萊奇(Slygie)、Lv.115 杜庫(Duku)", "Lv.140 克雷賽爾(Krexel)"]
   },
   {
     "id": 4,
     "name": "楓葉古城",
-    "description": "180等 天皇蟾蜍",
-    "tags": ["絕版副本", "日本", "LV180 BOSS"]
+    "title": "180等 天皇蟾蜍",
+    "tags": ["絕版副本", "日本", "LV180 BOSS"],
+    "description": "由世界旅行NPC史匹奈爾傳送到古代神社<br>到NPC Palanquin選擇傳送至楓葉古城",
+    "map": "日本",
+    "monsters": "天皇蟾蜍",
+    "details": ["Lv.180 天皇(Castellan)", "Lv.180 天皇蟾蜍(Toad)"]
   },
   {
     "id": 5,
     "name": "少林寺",
-    "description": "150等 武林妖僧",
-    "tags": ["世界旅行", "中國", "LV150 BOSS"]
+    "title": "150等 武林妖僧",
+    "tags": ["世界旅行", "中國", "LV150 BOSS"],
+    "description": "由世界旅行NPC史匹奈爾傳送到少林寺",
+    "map": "中國",
+    "monsters": "武林妖僧",
+    "details": ["Lv.80 黑熊(Black Bear)、Lv.85 白虎(White Tiger)", "Lv.150 武林妖僧(Wulin Yaoseng)"]
   },
   {
     "id": 6,
     "name": "昭和村",
-    "description": "175等 黑道長老",
-    "tags": ["世界旅行", "日本", "LV175 BOSS"]
+    "title": "175等 黑道長老",
+    "tags": ["世界旅行", "日本", "LV175 BOSS"],
+    "description": "由世界旅行NPC史匹奈爾傳送到古代神社<br>到昭和村找NPC鈴木選擇傳送至基地",
+    "map": "日本",
+    "monsters": "大姐頭、黑道長老",
+    "details": ["Lv.64 扛壩子(Leader B)、Lv.130 大姐頭(Female Boss)", "Lv.152 黑道保鑣(Bodyguard A)", "Lv.155 黑道師爺(Bodyguard B)", "Lv.175 黑道長老(The Boss)"]
   },
   {
     "id": 7,
     "name": "駁船碼頭城",
-    "description": "100等 幽靈船長",
-    "tags": ["世界旅行", "新加坡", "LV100 BOSS"]
+    "title": "100等 幽靈船長",
+    "tags": ["世界旅行", "新加坡", "LV100 BOSS"],
+    "description": "由墮落城市計程車上方NPC Irene傳送到新加坡CBD<br>到NPC Audrey選擇傳送至駁船碼頭城",
+    "map": "新加坡",
+    "monsters": "幽靈船長",
+    "details": ["Lv.60 幽靈船夫(Selkie Jr.)、Lv.63 幽靈清潔工(Slimy)", "Lv.100 拉塔尼卡船長(Capt. Latanica)"]
   },
   {
     "id": 8,
     "name": "水上市場",
-    "description": "大蛇王",
-    "tags": ["世界旅行", "泰國"]
+    "title": "大蛇王",
+    "tags": ["世界旅行", "泰國"],
+    "description": "由世界旅行NPC史匹奈爾傳送到水上市場<br>解完前置任務後可挑戰大蛇王",
+    "map": "泰國",
+    "monsters": "大蛇王",
+    "details": ["Lv.25 黃蜥蜴(Yellow Lizard)、Lv.28 蟾蜍(Toad)", "Lv.60 大蛇王(Python)"]
   },
   {
     "id": 9,
     "name": "新葉城",
-    "description": "電擊象、機械蜘蛛",
-    "tags": ["絕版地圖", "克拉奇亞"]
+    "title": "電擊象、機械蜘蛛",
+    "tags": ["絕版地圖", "克拉奇亞"],
+    "description": "由墮落城市地鐵站傳送至新葉城",
+    "map": "克拉奇亞",
+    "monsters": "電擊象、機械蜘蛛",
+    "details": ["Lv.41 電擊象(Electrophant)、Lv.44 電子機器人(I.AM.ROBOT)", "Lv.80 機械蜘蛛"]
   }
 ]

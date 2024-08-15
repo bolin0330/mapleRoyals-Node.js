@@ -40,7 +40,7 @@
             <div class="card border-0">
               <button
                 data-bs-toggle="modal"
-                data-bs-target="#modal<%= collection.id %>"
+                data-bs-target="#collectionModal<%= collection.id %>"
                 class="bg-transparent border-0"
                 type="button"
               >
@@ -52,7 +52,7 @@
               </button>
               <div class="card-body">
                 <h3 class="card-title text-primary-700"><%= collection.name %></h3>
-                <p class="card-text mb-3 mb-md-4 text-primary-500"><%= collection.description %></p>
+                <p class="card-text mb-3 mb-md-4 text-primary-500"><%= collection.title %></p>
                 <div class="d-flex gap-3">
                   <% for (const tagKey in collection.tags) {%>
                     <% const tag = collection.tags[tagKey] %>
@@ -68,348 +68,43 @@
     </ul>
   </div>
 
-  <div class="modal" id="modal1" tabindex="-1" aria-labelledby="modal" aria-hidden="true">
-    <div
-      class="modal-dialog modal-dialog-centered"
-      style="--bs-modal-width: 1076px;"
-    >
-      <div class="modal-content rounded-4">
-        <div class="modal-header pt-6 pb-0 px-6 px-md-7 mb-4 mb-md-7 border-0">
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="px-6 px-md-9">
-          <h3 class="modal-title mb-2 text-primary-700 text-center">未來東京</h3>
-          <p class="mb-4 mb-md-7 text-primary-500 text-center">180等 奧芙赫斑</p>
-          <div class="row row-gap-4 justify-content-center justify-content-md-between align-items-center mb-4 mb-md-7">
-            <div class="col-12 col-md-5 col-lg-7 text-primary-800">
-              <p class="mb-0">由世界旅行NPC史匹奈爾傳送到古代神社</p>
-              <p class="mb-0">到神社下的水井可移動至未來東京</p>
-            </div>
-            <div class="divider col-12 col-md-5 w-auto text-center text-md-start ps-md-4 pt-4 pt-md-0 text-primary-600">
-              <p class="d-md-none mb-1">地圖分類</p>
-              <p class="d-md-none mb-3">日本</p>
-              <p class="d-md-none mb-1">經典怪物</p>
-              <p class="d-md-none mb-0">奧芙赫斑、杜納斯、貝魯加墨特</p>
-              <p class="d-none d-md-block mb-1">地圖分類：日本</p>
-              <p class="d-none d-md-block mb-0">經典怪物：奧芙赫斑、杜納斯、貝魯加墨特</p>
+  <% for (const collectionKey in site.data.collections) { %>
+    <% const collection = site.data.collections[collectionKey] %>
+    <div class="modal" id="collectionModal<%= collection.id %>" tabindex="-1" aria-labelledby="modal" aria-hidden="true">
+      <div
+        class="modal-dialog modal-dialog-centered"
+        style="--bs-modal-width: 1076px;"
+      >
+        <div class="modal-content rounded-4">
+          <div class="modal-header pt-6 pb-0 px-6 px-md-7 mb-4 mb-md-7 border-0">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="px-6 px-md-9">
+            <h3 class="modal-title mb-2 text-primary-700 text-center"><%= collection.name %></h3>
+            <p class="mb-4 mb-md-7 text-primary-500 text-center"><%= collection.title %></p>
+            <div class="row row-gap-4 justify-content-center justify-content-md-between align-items-center mb-4 mb-md-7">
+              <div class="col-12 col-md-5 col-lg-7 text-center text-md-start text-primary-800">
+                <p class="mb-0"><%- collection.description %></p>
+              </div>
+              <div class="divider col-12 col-md-5 w-auto text-center text-md-start ps-md-4 pt-4 pt-md-0 text-primary-600">
+                <p class="d-md-none mb-1">地圖分類</p>
+                <p class="d-md-none mb-3"><%= collection.map %></p>
+                <p class="d-md-none mb-1">經典怪物</p>
+                <p class="d-md-none mb-0"><%= collection.monsters %></p>
+                <p class="d-none d-md-block mb-1">地圖分類：<%= collection.map %></p>
+                <p class="d-none d-md-block mb-0">經典怪物：<%= collection.monsters %></p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="modal-body py-7 text-center bg-primary-100">
-          <h4 class="mb-2 mb-md-3 fs-5 text-primary-800">Lv.140 貝魯加墨特(Vergamot)</h4>
-          <img class="img-fluid mb-3 mb-md-4 rounded-4" src="/mapleRoyals-Node.js/images/map-image1-content1.png" alt="modal-image1">
-          <h4 class="mb-2 mb-md-3 fs-5 text-primary-800">Lv.152 杜納斯(Dunas)</h4>
-          <img class="img-fluid mb-3 mb-md-4 rounded-4" src="/mapleRoyals-Node.js/images/map-image1-content2.png" alt="modal-image2">
-          <h4 class="mb-2 mb-md-3 fs-5 text-primary-800">Lv.158 尼貝龍根(Nibergen)</h4>
-          <img class="img-fluid mb-3 mb-md-4 rounded-4" src="/mapleRoyals-Node.js/images/map-image1-content3.png" alt="modal-image3">
-          <h4 class="mb-2 mb-md-3 fs-5 text-primary-800">Lv.180 奧芙赫斑(Auf Haven)</h4>
-          <img class="img-fluid mb-3 mb-md-4 rounded-4" src="/mapleRoyals-Node.js/images/map-image1-content4.png" alt="modal-image4">
+          <div class="modal-body py-7 text-center bg-primary-100">
+            <% for (const index in collection.details) { %>
+              <% const detail = collection.details[index] %>
+              <h4 class="mb-2 mb-md-3 fs-5 text-primary-800"><%= detail %></h4>
+              <img class="img-fluid mb-3 mb-md-4 rounded-4" src="/mapleRoyals-Node.js/images/map-image<%= collection.id %>-content<%= parseInt(index) + 1 %>.png" alt="modal-image<%= index %>">
+            <% } %>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-
-  <div class="modal" id="modal2" tabindex="-1" aria-labelledby="modal" aria-hidden="true">
-    <div
-      class="modal-dialog modal-dialog-centered"
-      style="--bs-modal-width: 1076px;"
-    >
-      <div class="modal-content rounded-4">
-        <div class="modal-header pt-6 pb-0 px-6 px-md-7 mb-4 mb-md-7 border-0">
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="px-6 px-md-9">
-          <h3 class="modal-title mb-2 text-primary-700 text-center">馬來西亞夢幻公園</h3>
-          <p class="mb-4 mb-md-7 text-primary-500 text-center">140等 泰勒熊、娃娃獅王</p>
-          <div class="row row-gap-4 justify-content-center justify-content-md-between align-items-center mb-4 mb-md-7">
-            <div class="col-12 col-md-5 col-lg-7 text-primary-800">
-              <p class="mb-0">由墮落城市計程車上方NPC Irene傳送到新加坡CBD</p>
-              <p class="mb-0">到NPC Audrey選擇傳送至馬來西亞</p>
-            </div>
-            <div class="divider col-12 col-md-5 w-auto text-center text-md-start ps-md-4 pt-4 pt-md-0 text-primary-600">
-              <p class="d-md-none mb-1">地圖分類</p>
-              <p class="d-md-none mb-3">馬來西亞</p>
-              <p class="d-md-none mb-1">經典怪物</p>
-              <p class="d-md-none mb-0">泰勒熊、娃娃獅王</p>
-              <p class="d-none d-md-block mb-1">地圖分類：馬來西亞</p>
-              <p class="d-none d-md-block mb-0">經典怪物：泰勒熊、娃娃獅王</p>
-            </div>
-          </div>
-        </div>
-        <div class="modal-body py-7 text-center bg-primary-100">
-          <h4 class="mb-2 mb-md-3 fs-5 text-primary-800">Lv.47 艾摩水靈(Emo Slime)、Lv.52 黑色迫炮(Dark Fission)</h4>
-          <img class="img-fluid mb-3 mb-md-4 rounded-4" src="/mapleRoyals-Node.js/images/map-image2-content1.png" alt="modal-image1">
-          <h4 class="mb-2 mb-md-3 fs-5 text-primary-800">Lv.61 黑色獵犬(Rodeo)</h4>
-          <img class="img-fluid mb-3 mb-md-4 rounded-4" src="/mapleRoyals-Node.js/images/map-image2-content2.png" alt="modal-image2">
-          <h4 class="mb-2 mb-md-3 fs-5 text-primary-800">Lv.140 泰勒熊(Targa)、Lv.140 娃娃獅王(Scarlion)</h4>
-          <img class="img-fluid mb-3 mb-md-4 rounded-4" src="/mapleRoyals-Node.js/images/map-image2-content3.png" alt="modal-image3">
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="modal" id="modal3" tabindex="-1" aria-labelledby="modal" aria-hidden="true">
-    <div
-      class="modal-dialog modal-dialog-centered"
-      style="--bs-modal-width: 1076px;"
-    >
-      <div class="modal-content rounded-4">
-        <div class="modal-header pt-6 pb-0 px-6 px-md-7 mb-4 mb-md-7 border-0">
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="px-6 px-md-9">
-          <h3 class="modal-title mb-2 text-primary-700 text-center">烏魯城大冒險</h3>
-          <p class="mb-4 mb-md-7 text-primary-500 text-center">140等 克雷賽爾</p>
-          <div class="row row-gap-4 justify-content-center justify-content-md-between align-items-center mb-4 mb-md-7">
-            <div class="col-12 col-md-5 col-lg-7 text-primary-800">
-              <p class="mb-0">由墮落城市計程車上方NPC Irene傳送到新加坡CBD</p>
-              <p class="mb-0">到地圖Suburban Area2右上方可移動到烏魯城</p>
-            </div>
-            <div class="divider col-12 col-md-5 w-auto text-center text-md-start ps-md-4 pt-4 pt-md-0 text-primary-600">
-              <p class="d-md-none mb-1">地圖分類</p>
-              <p class="d-md-none mb-3">新加坡</p>
-              <p class="d-md-none mb-1">經典怪物</p>
-              <p class="d-md-none mb-0">克雷賽爾</p>
-              <p class="d-none d-md-block mb-1">地圖分類：新加坡</p>
-              <p class="d-none d-md-block mb-0">經典怪物：克雷賽爾</p>
-            </div>
-          </div>
-        </div>
-        <div class="modal-body py-7 text-center bg-primary-100">
-          <h4 class="mb-2 mb-md-3 fs-5 text-primary-800">Lv.90 維壯(Veetron)</h4>
-          <img class="img-fluid mb-3 mb-md-4 rounded-4" src="/mapleRoyals-Node.js/images/map-image3-content1.png" alt="modal-image1">
-          <h4 class="mb-2 mb-md-3 fs-5 text-primary-800">Lv.95 史萊奇(Slygie)、Lv.115 杜庫(Duku)</h4>
-          <img class="img-fluid mb-3 mb-md-4 rounded-4" src="/mapleRoyals-Node.js/images/map-image3-content2.png" alt="modal-image2">
-          <h4 class="mb-2 mb-md-3 fs-5 text-primary-800">Lv.140 克雷賽爾(Krexel)</h4>
-          <img class="img-fluid mb-3 mb-md-4 rounded-4" src="/mapleRoyals-Node.js/images/map-image3-content3.png" alt="modal-image3">
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="modal" id="modal4" tabindex="-1" aria-labelledby="modal" aria-hidden="true">
-    <div
-      class="modal-dialog modal-dialog-centered"
-      style="--bs-modal-width: 1076px;"
-    >
-      <div class="modal-content rounded-4">
-        <div class="modal-header pt-6 pb-0 px-6 px-md-7 mb-4 mb-md-7 border-0">
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="px-6 px-md-9">
-          <h3 class="modal-title mb-2 text-primary-700 text-center">楓葉古城</h3>
-          <p class="mb-4 mb-md-7 text-primary-500 text-center">180等 天皇蟾蜍</p>
-          <div class="row row-gap-4 justify-content-center justify-content-md-between align-items-center mb-4 mb-md-7">
-            <div class="col-12 col-md-5 col-lg-7 text-primary-800">
-              <p class="mb-0">由世界旅行NPC史匹奈爾傳送到古代神社</p>
-              <p class="mb-0">到NPC Palanquin選擇傳送至楓葉古城</p>
-            </div>
-            <div class="divider col-12 col-md-5 w-auto text-center text-md-start ps-md-4 pt-4 pt-md-0 text-primary-600">
-              <p class="d-md-none mb-1">地圖分類</p>
-              <p class="d-md-none mb-3">日本</p>
-              <p class="d-md-none mb-1">經典怪物</p>
-              <p class="d-md-none mb-0">天皇蟾蜍</p>
-              <p class="d-none d-md-block mb-1">地圖分類：日本</p>
-              <p class="d-none d-md-block mb-0">經典怪物：天皇蟾蜍</p>
-            </div>
-          </div>
-        </div>
-        <div class="modal-body py-7 text-center bg-primary-100">
-          <h4 class="mb-2 mb-md-3 fs-5 text-primary-800">Lv.180 天皇(Castellan)</h4>
-          <img class="img-fluid mb-3 mb-md-4 rounded-4" src="/mapleRoyals-Node.js/images/map-image4-content1.png" alt="modal-image1">
-          <h4 class="mb-2 mb-md-3 fs-5 text-primary-800">Lv.180 天皇蟾蜍(Toad)</h4>
-          <img class="img-fluid mb-3 mb-md-4 rounded-4" src="/mapleRoyals-Node.js/images/map-image4-content2.png" alt="modal-image2">
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="modal" id="modal5" tabindex="-1" aria-labelledby="modal" aria-hidden="true">
-    <div
-      class="modal-dialog modal-dialog-centered"
-      style="--bs-modal-width: 1076px;"
-    >
-      <div class="modal-content rounded-4">
-        <div class="modal-header pt-6 pb-0 px-6 px-md-7 mb-4 mb-md-7 border-0">
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="px-6 px-md-9">
-          <h3 class="modal-title mb-2 text-primary-700 text-center">少林寺</h3>
-          <p class="mb-4 mb-md-7 text-primary-500 text-center">150等 武林妖僧</p>
-          <div class="row row-gap-4 justify-content-center justify-content-md-between align-items-center mb-4 mb-md-7">
-            <div class="col-12 col-md-5 col-lg-7 text-primary-800">
-              <p class="mb-0">由世界旅行NPC史匹奈爾傳送到少林寺</p>
-              <!-- <p class="mb-0">少林寺</p> -->
-            </div>
-            <div class="divider col-12 col-md-5 w-auto text-center text-md-start ps-md-4 pt-4 pt-md-0 text-primary-600">
-              <p class="d-md-none mb-1">地圖分類</p>
-              <p class="d-md-none mb-3">中國</p>
-              <p class="d-md-none mb-1">經典怪物</p>
-              <p class="d-md-none mb-0">武林妖僧</p>
-              <p class="d-none d-md-block mb-1">地圖分類：中國</p>
-              <p class="d-none d-md-block mb-0">經典怪物：武林妖僧</p>
-            </div>
-          </div>
-        </div>
-        <div class="modal-body py-7 text-center bg-primary-100">
-          <h4 class="mb-2 mb-md-3 fs-5 text-primary-800">Lv.80 黑熊(Black Bear)、Lv.85 白虎(White Tiger)</h4>
-          <img class="img-fluid mb-3 mb-md-4 rounded-4" src="/mapleRoyals-Node.js/images/map-image5-content1.png" alt="modal-image1">
-          <h4 class="mb-2 mb-md-3 fs-5 text-primary-800">Lv.150 武林妖僧(Wulin Yaoseng)</h4>
-          <img class="img-fluid mb-3 mb-md-4 rounded-4" src="/mapleRoyals-Node.js/images/map-image5-content2.png" alt="modal-image2">
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="modal" id="modal6" tabindex="-1" aria-labelledby="modal" aria-hidden="true">
-    <div
-      class="modal-dialog modal-dialog-centered"
-      style="--bs-modal-width: 1076px;"
-    >
-      <div class="modal-content rounded-4">
-        <div class="modal-header pt-6 pb-0 px-6 px-md-7 mb-4 mb-md-7 border-0">
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="px-6 px-md-9">
-          <h3 class="modal-title mb-2 text-primary-700 text-center">昭和村</h3>
-          <p class="mb-4 mb-md-7 text-primary-500 text-center">175等 黑道長老</p>
-          <div class="row row-gap-4 justify-content-center justify-content-md-between align-items-center mb-4 mb-md-7">
-            <div class="col-12 col-md-5 col-lg-7 text-primary-800">
-              <p class="mb-0">由世界旅行NPC史匹奈爾傳送到古代神社</p>
-              <p class="mb-0">到昭和村找NPC鈴木選擇傳送至基地</p>
-            </div>
-            <div class="divider col-12 col-md-5 w-auto text-center text-md-start ps-md-4 pt-4 pt-md-0 text-primary-600">
-              <p class="d-md-none mb-1">地圖分類</p>
-              <p class="d-md-none mb-3">日本</p>
-              <p class="d-md-none mb-1">經典怪物</p>
-              <p class="d-md-none mb-0">黑道長老</p>
-              <p class="d-none d-md-block mb-1">地圖分類：日本</p>
-              <p class="d-none d-md-block mb-0">經典怪物：黑道長老</p>
-            </div>
-          </div>
-        </div>
-        <div class="modal-body py-7 text-center bg-primary-100">
-          <h4 class="mb-2 mb-md-3 fs-5 text-primary-800">Lv.64 扛壩子(Leader B)、Lv.130 大姐頭(Female Boss)</h4>
-          <img class="img-fluid mb-3 mb-md-4 rounded-4" src="/mapleRoyals-Node.js/images/map-image6-content1.png" alt="modal-image1">
-          <h4 class="mb-2 mb-md-3 fs-5 text-primary-800">Lv.152 黑道保鑣(Bodyguard A)</h4>
-          <img class="img-fluid mb-3 mb-md-4 rounded-4" src="/mapleRoyals-Node.js/images/map-image6-content2.png" alt="modal-image2">
-          <h4 class="mb-2 mb-md-3 fs-5 text-primary-800">Lv.155 黑道師爺(Bodyguard B)</h4>
-          <img class="img-fluid mb-3 mb-md-4 rounded-4" src="/mapleRoyals-Node.js/images/map-image6-content3.png" alt="modal-image3">
-          <h4 class="mb-2 mb-md-3 fs-5 text-primary-800">Lv.175 黑道長老(The Boss)</h4>
-          <img class="img-fluid mb-3 mb-md-4 rounded-4" src="/mapleRoyals-Node.js/images/map-image6-content4.png" alt="modal-image4">
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="modal" id="modal7" tabindex="-1" aria-labelledby="modal" aria-hidden="true">
-    <div
-      class="modal-dialog modal-dialog-centered"
-      style="--bs-modal-width: 1076px;"
-    >
-      <div class="modal-content rounded-4">
-        <div class="modal-header pt-6 pb-0 px-6 px-md-7 mb-4 mb-md-7 border-0">
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="px-6 px-md-9">
-          <h3 class="modal-title mb-2 text-primary-700 text-center">駁船碼頭城</h3>
-          <p class="mb-4 mb-md-7 text-primary-500 text-center">100等 幽靈船長</p>
-          <div class="row row-gap-4 justify-content-center justify-content-md-between align-items-center mb-4 mb-md-7">
-            <div class="col-12 col-md-5 col-lg-7 text-primary-800">
-              <p class="mb-0">由墮落城市計程車上方NPC Irene傳送到新加坡CBD</p>
-              <p class="mb-0">到神祕小徑3進入幽靈船</p>
-            </div>
-            <div class="divider col-12 col-md-5 w-auto text-center text-md-start ps-md-4 pt-4 pt-md-0 text-primary-600">
-              <p class="d-md-none mb-1">地圖分類</p>
-              <p class="d-md-none mb-3">新加坡</p>
-              <p class="d-md-none mb-1">經典怪物</p>
-              <p class="d-md-none mb-0">幽靈船長</p>
-              <p class="d-none d-md-block mb-1">地圖分類：新加坡</p>
-              <p class="d-none d-md-block mb-0">經典怪物：幽靈船長</p>
-            </div>
-          </div>
-        </div>
-        <div class="modal-body py-7 text-center bg-primary-100">
-          <h4 class="mb-2 mb-md-3 fs-5 text-primary-800">Lv.60 幽靈船夫(Selkie Jr.)、Lv.63 幽靈清潔工(Slimy)</h4>
-          <img class="img-fluid mb-3 mb-md-4 rounded-4" src="/mapleRoyals-Node.js/images/map-image7-content1.png" alt="modal-image1">
-          <h4 class="mb-2 mb-md-3 fs-5 text-primary-800">Lv.100 拉塔尼卡船長(Capt. Latanica)</h4>
-          <img class="img-fluid mb-3 mb-md-4 rounded-4" src="/mapleRoyals-Node.js/images/map-image7-content2.png" alt="modal-image2">
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="modal" id="modal8" tabindex="-1" aria-labelledby="modal" aria-hidden="true">
-    <div
-      class="modal-dialog modal-dialog-centered"
-      style="--bs-modal-width: 1076px;"
-    >
-      <div class="modal-content rounded-4">
-        <div class="modal-header pt-6 pb-0 px-6 px-md-7 mb-4 mb-md-7 border-0">
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="px-6 px-md-9">
-          <h3 class="modal-title mb-2 text-primary-700 text-center">水上市場</h3>
-          <p class="mb-4 mb-md-7 text-primary-500 text-center">大蛇王</p>
-          <div class="row row-gap-4 justify-content-center justify-content-md-between align-items-center mb-4 mb-md-7">
-            <div class="col-12 col-md-5 col-lg-7 text-primary-800">
-              <p class="mb-0">由世界旅行NPC史匹奈爾傳送到水上市場</p>
-              <p class="mb-0">解完前置任務後可挑戰大蛇王</p>
-            </div>
-            <div class="divider col-12 col-md-5 w-auto text-center text-md-start ps-md-4 pt-4 pt-md-0 text-primary-600">
-              <p class="d-md-none mb-1">地圖分類</p>
-              <p class="d-md-none mb-3">泰國</p>
-              <p class="d-md-none mb-1">經典怪物</p>
-              <p class="d-md-none mb-0">大蛇王</p>
-              <p class="d-none d-md-block mb-1">地圖分類：泰國</p>
-              <p class="d-none d-md-block mb-0">經典怪物：大蛇王</p>
-            </div>
-          </div>
-        </div>
-        <div class="modal-body py-7 text-center bg-primary-100">
-          <h4 class="mb-2 mb-md-3 fs-5 text-primary-800">Lv.25 黃蜥蜴(Yellow Lizard)、Lv.28 蟾蜍(Toad)</h4>
-          <img class="img-fluid mb-3 mb-md-4 rounded-4" src="/mapleRoyals-Node.js/images/map-image8-content1.png" alt="modal-image1">
-          <h4 class="mb-2 mb-md-3 fs-5 text-primary-800">Lv.60 大蛇王(Python)</h4>
-          <img class="img-fluid mb-3 mb-md-4 rounded-4" src="/mapleRoyals-Node.js/images/map-image8-content2.png" alt="modal-image2">
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="modal" id="modal9" tabindex="-1" aria-labelledby="modal" aria-hidden="true">
-    <div
-      class="modal-dialog modal-dialog-centered"
-      style="--bs-modal-width: 1076px;"
-    >
-      <div class="modal-content rounded-4">
-        <div class="modal-header pt-6 pb-0 px-6 px-md-7 mb-4 mb-md-7 border-0">
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="px-6 px-md-9">
-          <h3 class="modal-title mb-2 text-primary-700 text-center">新葉城</h3>
-          <p class="mb-4 mb-md-7 text-primary-500 text-center">電擊象、機械蜘蛛</p>
-          <div class="row row-gap-4 justify-content-center justify-content-md-between align-items-center mb-4 mb-md-7">
-            <div class="col-12 col-md-5 col-lg-7 text-primary-800">
-              <p class="mb-0">由墮落城市地鐵站傳送至新葉城</p>
-              <!-- <p class="mb-0">到神社下的水井可移動至未來東京</p> -->
-            </div>
-            <div class="divider col-12 col-md-5 w-auto text-center text-md-start ps-md-4 pt-4 pt-md-0 text-primary-600">
-              <p class="d-md-none mb-1">地圖分類</p>
-              <p class="d-md-none mb-3">克拉奇亞</p>
-              <p class="d-md-none mb-1">經典怪物</p>
-              <p class="d-md-none mb-0">電擊象、機械蜘蛛</p>
-              <p class="d-none d-md-block mb-1">地圖分類：克拉奇亞</p>
-              <p class="d-none d-md-block mb-0">經典怪物：電擊象、機械蜘蛛</p>
-            </div>
-          </div>
-        </div>
-        <div class="modal-body py-7 text-center bg-primary-100">
-          <h4 class="mb-2 mb-md-3 fs-5 text-primary-800">Lv.41 電擊象(Electrophant)、Lv.44 電子機器人(I.AM.ROBOT)</h4>
-          <img class="img-fluid mb-3 mb-md-4 rounded-4" src="/mapleRoyals-Node.js/images/map-image9-content1.png" alt="modal-image1">
-          <h4 class="mb-2 mb-md-3 fs-5 text-primary-800">Lv.80 機械蜘蛛(Wolf Spider)</h4>
-          <img class="img-fluid mb-3 mb-md-4 rounded-4" src="/mapleRoyals-Node.js/images/map-image9-content2.png" alt="modal-image2">
-        </div>
-      </div>
-    </div>
-  </div>
+  <% } %>
 </main>

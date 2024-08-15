@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: MapleRoyals推廣小站
+title: MapleRoyals 中文推廣站
 subtitle: '最初的感動'
 description: '楓之谷最大私服'
 keywords: 楓之谷, 私服, 中文, MapleRoyals, Maplestory, RMS, Hexo
@@ -109,4 +109,4 @@ deploy:
   type: git
   repo: https://github.com/bolin0330/mapleRoyals-Node.js
   branch: gh-pages
-  message: 'add images'
+  message: 'update content'

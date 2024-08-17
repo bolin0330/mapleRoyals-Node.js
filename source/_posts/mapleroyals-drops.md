@@ -8,3 +8,4 @@ tags:
 ---
 在搜尋欄輸入裝備或道具名，即可得到MapleRoyals裡的掉落來源。
 https://royals-drops.herokuapp.com/#/search/items
+![RMS Drop Tracker](/images/posts/mapleroyals-drops1.png "RMS Drop Tracker")

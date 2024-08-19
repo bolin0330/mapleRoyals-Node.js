@@ -21,3 +21,6 @@ blog_generator:
 
 # Miscellaneous
 favicon: /images/icon.ico
+
+# Google Analytics
+google_analytics: G-KEVVR4REFB

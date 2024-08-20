@@ -4,11 +4,11 @@
       <div class="row">
         <div class="col-12 col-md-10 col-lg-6 offset-md-1 offset-lg-3">
           <blockquote class="position-relative py-9 mb-7 mb-md-4 fs-4 text-center text-primary-800">
-            <img class="d-md-none position-absolute start-50 top-0 translate-middle-x" src="/mapleRoyals-Node.js/images/quote-left.png" alt="quote-left">
-            <img class="d-none d-md-block position-absolute start-0 top-0" src="/mapleRoyals-Node.js/images/quote-left.png" alt="quote-left">
+            <img class="d-md-none position-absolute start-50 top-0 translate-middle-x" src="/images/quote-left.png" loading="lazy" alt="quote-left">
+            <img class="d-none d-md-block position-absolute start-0 top-0" src="/images/quote-left.png" loading="lazy" alt="quote-left">
             <p>玩家最多的楓之谷<mark class="mark p-0">懷舊服</mark></p>
             <p class="mt-3 mt-md-0 mb-3">完美復刻<mark class="mark p-0">台服</mark>絕版內容</p>
-            <img class="d-none d-md-block position-absolute end-0 bottom-0" src="/mapleRoyals-Node.js/images/quote-right.png" alt="quote-right">
+            <img class="d-none d-md-block position-absolute end-0 bottom-0" src="/images/quote-right.png" loading="lazy" alt="quote-right">
           </blockquote>
         </div>
       </div>
@@ -45,7 +45,8 @@
                 type="button"
               >
                 <img
-                  src="/mapleRoyals-Node.js/images/map-image<%= collection.id %>.png"
+                  src="/images/map-image<%= collection.id %>.png"
+                  loading="lazy"
                   class="card-img-top rounded-4"
                   alt="map<%= collection.id %>"
                 >
@@ -100,7 +101,7 @@
             <% for (const index in collection.details) { %>
               <% const detail = collection.details[index] %>
               <h4 class="mb-2 mb-md-3 fs-5 text-primary-800"><%= detail %></h4>
-              <img class="img-fluid mb-3 mb-md-4 rounded-4" src="/mapleRoyals-Node.js/images/map-image<%= collection.id %>-content<%= parseInt(index) + 1 %>.png" alt="modal-image<%= index %>">
+              <img class="img-fluid mb-3 mb-md-4 rounded-4" src="/images/map-image<%= collection.id %>-content<%= parseInt(index) + 1 %>.png" loading="lazy" alt="modal-image<%= index %>">
             <% } %>
           </div>
         </div>

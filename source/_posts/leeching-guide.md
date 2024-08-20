@@ -2,7 +2,7 @@
 title: 練功地點推薦
 layout: post
 date: 2023/10/18
-cover: /mapleRoyals-Node.js/images/article-image3.png
+cover: /images/article-image3.png
 tags:
 - 攻略分享
 ---

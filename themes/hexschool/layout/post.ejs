@@ -47,7 +47,7 @@
           }).sort('date', -1).slice(0, 3).each(function(item) { %>
             <div class="col-12 col-md-6 col-lg-4">
               <div class="card border-0">
-                <img src="<%= item.cover %>" alt="<%= item.title %>">
+                <img src="<%= item.cover %>" loading="lazy" class="rounded-3" alt="<%= item.title %>">
                 <div class="card-body">
                   <h5 class="card-title mb-3 text-primary-700"><%= item.title %></h5>
                   <div class="d-flex justify-content-between align-items-center">

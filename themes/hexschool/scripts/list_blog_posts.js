@@ -35,6 +35,7 @@ function listPostsHelper(posts, options) {
               <div class="col-12 col-lg-4">
                 <img
                   src="${post.cover}"
+                  loading="lazy"
                   class="img-fluid w-100 h-100 object-fit-cover rounded-3"
                   alt="article-${post.title}"
                 >

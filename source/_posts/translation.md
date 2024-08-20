@@ -2,7 +2,7 @@
 title: 遊戲常用英文
 layout: post
 date: 2023/11/20
-cover: /mapleRoyals-Node.js/images/article-image2.png
+cover: /images/article-image2.png
 tags:
 - 遊戲導覽
 ---

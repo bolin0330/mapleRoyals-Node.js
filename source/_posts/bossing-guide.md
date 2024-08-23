@@ -9,7 +9,7 @@ tags:
 
 **拉圖斯**
 <div class="figure mb-0">
-    <img src="http://www.gametsg.com/maplestory/icon_npc/32795a54041a57532112c5829581af17.png" loading="lazy" class="figure-img" alt="Papulatus Clock">
+    <img src="https://firebasestorage.googleapis.com/v0/b/mapleroyals-hexo.appspot.com/o/Papulatus%20Clock.png?alt=media&token=67ed3d92-9d77-4fcc-9ba3-c2bf935b34ec" loading="lazy" class="figure-img" alt="Papulatus Clock">
 </div>
 
 主要是刷 NX 和部分技能書。
@@ -17,7 +17,7 @@ tags:
 
 **艾靈森林 組隊任務**
 <div class="figure mb-0">
-    <img src="https://sea.hidden-street.net/sites/sea.hidden-street.net/files/monsters/Ephenia.JPG" loading="lazy" class="figure-img" alt="Ephenia">
+    <img src="https://firebasestorage.googleapis.com/v0/b/mapleroyals-hexo.appspot.com/o/Ephenia.png?alt=media&token=d3aa767d-ecf4-41ab-996d-e142726cfb54" loading="lazy" class="figure-img" alt="Ephenia">
 </div>
 
 主要是刷前置任務的這兩只王的 NX，和 Ellin PQ 本身的獎勵: 戒指和耳環。
@@ -28,7 +28,7 @@ tags:
 
 **暗黑堡壘 組隊任務 (CWKPQ)**
 <div class="figure mb-0">
-    <img src="http://www.gametsg.com/maplestory/icon_npc/a4fc8c7d5fa90517a6d8e978252d3602.png" loading="lazy" class="figure-img" alt="CWKPQ">
+    <img src="https://firebasestorage.googleapis.com/v0/b/mapleroyals-hexo.appspot.com/o/CWKPQ.png?alt=media&token=07dd1fae-f262-4ac5-a1f2-1fec19fc658c" loading="lazy" class="figure-img" alt="CWKPQ">
 </div>
 
 最熱門的組隊任務，因為可以打到最高 10 攻擊乾淨的披風，和 7 力量 7 敏捷的乾淨眼罩，還有伺服器最頂的項鍊 MON (攻擊最大值為 8，力量、敏捷、智力、幸運最大值為 11)。
@@ -37,7 +37,7 @@ tags:
 
 **馬來西亞熊獅**
 <div class="figure mb-0">
-    <img src="http://www.gametsg.com/maplestory/icon_npc/0f3be8c98aa5a40069709e77ad301fd9.png" loading="lazy" class="figure-img" alt="Furious Targa">
+    <img src="https://firebasestorage.googleapis.com/v0/b/mapleroyals-hexo.appspot.com/o/Furious%20Targa.png?alt=media&token=e5cbd1a6-9bc3-48df-9e91-254eebe1a3b8" loading="lazy" class="figure-img" alt="Furious Targa">
 </div>
 
 固定掉四頂頭盔，熊兩頂 (幸運+智力)，獅兩頂 (力量+敏捷)，會來打的基本是為了頭盔，少少的 NX 和比較有價值的 Eye luk 10%。
@@ -46,7 +46,7 @@ tags:
 
 **殘暴炎魔**
 <div class="figure mb-0">
-    <img src="https://sea.hidden-street.net/sites/sea.hidden-street.net/files/imagecache/monster/monsters/monsters169.gif" loading="lazy" class="figure-img" alt="Zakum">
+    <img src="https://firebasestorage.googleapis.com/v0/b/mapleroyals-hexo.appspot.com/o/Zakum.png?alt=media&token=af8bd4f4-2e26-48ad-95ae-d8bb03629720" loading="lazy" class="figure-img" alt="Zakum">
 </div>
 
 耳熟能詳的王，大家小時候的回憶，顯卡太差或電腦太爛必斷，可以刷頭盔、渾沌 60%、部分職業技能書 (標賊、英雄、主教、聖騎士)、天怒 20、還有機率掉兩張 5k nx 卡片等等。
@@ -54,7 +54,7 @@ tags:
 
 **克雷賽爾樹王**
 <div class="figure mb-0">
-    <img src="http://www.mapleroyals.net/wp-content/uploads/2015/04/2026058-300x234.gif" loading="lazy" class="figure-img" alt="Krexel">
+    <img src="https://firebasestorage.googleapis.com/v0/b/mapleroyals-hexo.appspot.com/o/Krexel.png?alt=media&token=d0454a22-65a9-4cba-bd35-9fde4eff800a" loading="lazy" class="figure-img" alt="Krexel">
 </div>
 
 打這個王就是為了經驗和伺服器畢業戒指，素質乾淨最大值為 8。
@@ -62,7 +62,7 @@ tags:
 
 **武林妖僧**
 <div class="figure mb-0">
-    <img src="http://www.gametsg.com/maplestory/icon_npc/a25905507f29510602aca8aced6012bd.png" loading="lazy" class="figure-img" alt="Wu-Ling Yaoseng">
+    <img src="https://firebasestorage.googleapis.com/v0/b/mapleroyals-hexo.appspot.com/o/Wu-Ling%20Yaoseng.png?alt=media&token=7f1748d9-cc2a-4f7d-a4fa-b722946955a5" loading="lazy" class="figure-img" alt="Wu-Ling Yaoseng">
 </div>
 
 十分鐘內要殺掉妖僧和他召喚的三只小怪，經驗 CP 全伺服器最高，每天下班或放學後必殺。
@@ -70,7 +70,7 @@ tags:
 
 **暗黑龍王**
 <div class="figure mb-0">
-    <img src="https://sea.hidden-street.net/sites/sea.hidden-street.net/files/imagecache/monster/monsters/chaos-horntails-head-a.png" loading="lazy" class="figure-img" alt="Horntail">
+    <img src="https://firebasestorage.googleapis.com/v0/b/mapleroyals-hexo.appspot.com/o/Horntail.png?alt=media&token=c30d2256-930d-43cc-8bec-9d23dc07e2a7" loading="lazy" class="figure-img" alt="Horntail">
 </div>
 
 最耳熟能詳的 BOSS，會掉 MW20、Gene30 等書本，還有乾淨的 110 等龍武，雖然龍鍊已被 MON 取代，但還是個 200 等後照樣會打的王。
@@ -79,7 +79,7 @@ tags:
 
 **黑道長老**
 <div class="figure mb-0">
-    <img src="http://www.gametsg.com/maplestory/icon_npc/6a18b6ca4028d36944e6378b21c13168.png" loading="lazy" class="figure-img" alt="The Boss">
+    <img src="https://firebasestorage.googleapis.com/v0/b/mapleroyals-hexo.appspot.com/o/The%20Boss.png?alt=media&token=cd3f4a6a-68df-4893-9116-ab11a09a1cc7" loading="lazy" class="figure-img" alt="The Boss">
 </div>
 
 冷門的王，經驗尚可，但打起來很麻煩，第一階段除非找三個主教放 Holy Shield，防止暈眩，標賊能跳射，但其他職業會被暈爛。第二階段則是 Iframe 嚴重，輸出會打到空氣上。
@@ -87,7 +87,7 @@ tags:
 
 **天皇蟾蜍**
 <div class="figure mb-0">
-    <img src="http://www.gametsg.com/maplestory/icon_npc/2f83ef810669198abea8ac246c843767.png" loading="lazy" class="figure-img" alt="Toad">
+    <img src="https://firebasestorage.googleapis.com/v0/b/mapleroyals-hexo.appspot.com/o/Toad.png?alt=media&token=f7baef8f-5ceb-4e35-a46b-1d81cd156a81" loading="lazy" class="figure-img" alt="Toad">
 </div>
 
 打經驗和伺服器最強的幸運眼罩為主，運氣好可能掉個頂的冰帳，眼罩乾淨最大值為 8。
@@ -95,7 +95,7 @@ tags:
 
 **奧芙赫斑**
 <div class="figure mb-0">
-    <img src="https://sea.hidden-street.net/sites/sea.hidden-street.net/files/imagecache/monster/monsters/auf-haven.png" loading="lazy" class="figure-img" alt="Auf Haven">
+    <img src="https://firebasestorage.googleapis.com/v0/b/mapleroyals-hexo.appspot.com/o/Auf%20Haven.png?alt=media&token=1ace2824-3caa-44ed-b405-c48b79e973e1" loading="lazy" class="figure-img" alt="Auf Haven">
 </div>
 
 伺服器最頂的頭盔，乾淨素質最大值為 7，搭配 AUF 10% 和祝福卷軸，可以點出 87 素質的怪物頭盔。
@@ -104,7 +104,7 @@ tags:
 
 **玫瑰庭園 個人任務**
 <div class="figure mb-0">
-    <img src="http://www.gametsg.com/maplestory/icon_npc/21e30e8cc7baa554bbb980bdfc2604fa.png" loading="lazy" class="figure-img" alt="Castle Golem">
+    <img src="https://firebasestorage.googleapis.com/v0/b/mapleroyals-hexo.appspot.com/o/Castle%20Golem.png?alt=media&token=a3b1a738-4af2-4e8e-82ff-29f323339b6b" loading="lazy" class="figure-img" alt="Castle Golem">
 </div>
 
 此任務因只能單一個角色入場，不能攜帶分身，因此對刀賊最有利，其次是其他近戰，最慘的是鏢賊。
@@ -114,7 +114,7 @@ tags:
 
 **獅子王凡雷恩**
 <div class="figure mb-0">
-    <img src="https://sea.hidden-street.net/sites/sea.hidden-street.net/files/imagecache/monster/monsters/Von%20Leon_0.png" loading="lazy" class="figure-img" alt="Von Leon">
+    <img src="https://firebasestorage.googleapis.com/v0/b/mapleroyals-hexo.appspot.com/o/Von%20Leon.png?alt=media&token=4e7be51d-4a8d-4c69-b052-d28cf2ece5de" loading="lazy" class="figure-img" alt="Von Leon">
 </div>
 
 目前伺服器最困難的王，要 12 人 (老手+裝備夠好) ~ 30 人才能推過，目前 VL 還在持續調整中。

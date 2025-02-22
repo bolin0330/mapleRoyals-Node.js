@@ -47,7 +47,7 @@
     "description": "由世界旅行NPC史匹奈爾傳送到少林寺",
     "map": "中國",
     "monsters": "武林妖僧",
-    "details": ["Lv.80 黑熊(Black Bear)、Lv.85 白虎(White Tiger)", "Lv.150 武林妖僧(Wulin Yaoseng)"]
+    "details": ["Lv.80 黑熊(Black Bear)、Lv.90 白虎(White Tiger)", "Lv.150 武林妖僧(Wulin Yaoseng)"]
   },
   {
     "id": 6,
@@ -87,6 +87,6 @@
     "description": "由墮落城市地鐵站傳送至新葉城",
     "map": "克拉奇亞",
     "monsters": "電擊象、機械蜘蛛",
-    "details": ["Lv.41 電擊象(Electrophant)、Lv.44 電子機器人(I.AM.ROBOT)", "Lv.80 機械蜘蛛"]
+    "details": ["Lv.41 電擊象(Electrophant)、Lv.44 電子機器人(I.AM.ROBOT)", "Lv.80 機械蜘蛛(Wolf Spider)"]
   }
 ]

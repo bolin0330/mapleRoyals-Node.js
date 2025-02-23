@@ -26,7 +26,7 @@ tags:
 [任務攻略](https://royals.ms/forum/threads/ellin-forest-party-quest-guide-epq.185329/)
 
 
-**暗黑堡壘 組隊任務 (CWKPQ)**
+**克林森烏德城 組隊任務 (CWKPQ)**
 <div class="figure mb-0">
     <img src="https://firebasestorage.googleapis.com/v0/b/mapleroyals-hexo.appspot.com/o/CWKPQ.png?alt=media&token=07dd1fae-f262-4ac5-a1f2-1fec19fc658c" loading="lazy" class="figure-img" alt="CWKPQ">
 </div>

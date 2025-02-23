@@ -71,7 +71,7 @@
 
   <% for (const collectionKey in site.data.collections) { %>
     <% const collection = site.data.collections[collectionKey] %>
-    <div class="modal" id="collectionModal<%= collection.id %>" tabindex="-1" aria-labelledby="modal" aria-hidden="true">
+    <div class="modal" id="collectionModal<%= collection.id %>" tabindex="-1" aria-labelledby="modal<%= collection.id %>" aria-hidden="true">
       <div
         class="modal-dialog modal-dialog-centered"
         style="--bs-modal-width: 1076px;"
